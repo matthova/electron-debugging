@@ -12,7 +12,7 @@ npm install
 
 1. Start React-dev server
 ```
-npm start:client
+npm run start:client
 ```
 2. Start the debug session, either for debugging the backend, by selecting "Debug Node" or the frontend, by selecting "Debug React", then click on the green arrow, or hit "F5".
 ![](./public/debug_snapshot.png)
