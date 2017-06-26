@@ -1,0 +1,24 @@
+{
+   "background": {
+      "scripts": [ "dolbyvoice_background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "dolbyvoice_page.js" ],
+      "matches": [ "file:///*", "http://*/*", "https://*/*" ]
+   } ],
+   "description": "Attend Dolby Voice conferences using the Google Chrome browser",
+   "icons": {
+      "128": "DolbyVoice128.png",
+      "16": "DolbyVoice16.png",
+      "32": "DolbyVoice32.png",
+      "48": "DolbyVoice48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAszuUWeCHz8/fd764epHox0q9JYiG2mqGfSP2HtxpX5G/Qs7EEv/oDbUjBIAYd4IzHEI/2qYe/YlCuffmt/l4x5e+ypR1YUl0MZhomfTmX0VqaWyj1YPeGucTzWjSvT/tzG8ydVcIWn5bz/jgwlo698mG2SsL8GJfjMSqF51PlbkP7hZ3cEPJdn/gqlQMDqCrRn+4L6I9FUf5J+wnwTILONWCusG3BElh4le1TEmTJ4+l91hiF8meTboawBdNksAh8oxXbdaEHLAvRzMEPBOhtqHgsKZFJfgpqtGh9ZVKWF+zBbNQ2ldjnzOOyxOLWJmrK6RR1ZUeaFncljBHhJkr5QIDAQAB",
+   "manifest_version": 2,
+   "name": "Dolby Voice 1.2",
+   "permissions": [ "nativeMessaging" ],
+   "short_name": "Dolby Voice",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2",
+   "web_accessible_resources": [ "dolbyvoice.extension" ]
+}
